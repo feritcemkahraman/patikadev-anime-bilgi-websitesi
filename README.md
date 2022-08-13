@@ -1,6 +1,6 @@
-# PatikaDev CSS Kullandığımız Website Ödevi
+# PatikaDev tarafından eğitim sırasında ödev olarak verilen, HTML ve CSS kullanarak oluşturduğum Anime Bilgi adlı web sitem
 
-PatikaDev eğitimi sırasında verilen HTML ve CSS kullanarak oluşturduğum Anime Bilgi web sitesi ödevi
+PatikaDev tarafından eğitim sırasında ödev olarak verilen, HTML ve CSS kullanarak oluşturduğum Anime Bilgi adlı web sitem
 
 ![PatikaDev HTML/CSS Website Ödevi](https://i.hizliresim.com/lvki8j0.jpg)
 
