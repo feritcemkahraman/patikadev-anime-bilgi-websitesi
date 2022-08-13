@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #9d50bb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6e48aa,
+    #9d50bb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6e48aa, #9d50bb);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.container-flood {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -100px;
+}
+
+.container {
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: 0.5s ease;
+}
+.card1 img {
+  width: 400px;
+}
+
+.hakkinda {
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.bn30 {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bn30 .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.bn30:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+}
+
+.bn30:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.bn30:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
